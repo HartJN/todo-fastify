@@ -1,5 +1,5 @@
-todo.hartjn.tech{
-	reverse_proxy todo-app:4000 {
-		header_down Strict-Transport-Security "max-age=31536000;
-	}
+todo.hartjn.tech {
+    reverse_proxy todo-app:4000 {
+        header_down Strict-Trasport-Security max-age=31536000;
+    }
 }
