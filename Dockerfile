@@ -13,7 +13,4 @@ WORKDIR /src
 
 RUN npm run-script build
 
-## TODO: remove before deploy
-EXPOSE 4000
-
 CMD ["node", "build/src/app.js"]
